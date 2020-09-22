@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ApiLibrary
+namespace ApiConsumerDemo.Models
 {
     public class SunModel
     {

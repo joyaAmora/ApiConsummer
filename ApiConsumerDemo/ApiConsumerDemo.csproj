@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ApiLibrary\ApiLibrary.csproj" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiConsumerDemo.Business\ApiConsumerDemo.Business.csproj" />
+    <ProjectReference Include="..\ApiConsumerDemo.Models\ApiConsumerDemo.Models.csproj" />
   </ItemGroup>
 
 </Project>

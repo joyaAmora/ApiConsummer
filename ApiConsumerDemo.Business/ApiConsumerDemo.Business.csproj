@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiConsumerDemo.Models\ApiConsumerDemo.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\2.1.15\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

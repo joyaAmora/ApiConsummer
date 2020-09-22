@@ -1,9 +1,9 @@
-﻿using ApiLibrary;
+﻿using ApiConsumerDemo.Models;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace ApiConsumerDemo
+namespace ApiConsumerDemo.Business
 {
     public static class SunProcessor
     {
